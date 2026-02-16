@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Nortune";
+  src: url("NortuneExtrablack-L3zO4.ttf") format("truetype");
+}
+
 body{
   margin:0;
   font-family: Arial, sans-serif;
@@ -31,7 +36,12 @@ body{
   align-items:center;
   gap:12px;
   margin:10px 0;
+
+  font-family: "Nortune", sans-serif;
+  letter-spacing: 2px;
 }
+
+
 
 
 .verified{
@@ -51,13 +61,6 @@ body{
   display:none;
 }
 
-.trust-strip{
-  display:flex;
-  justify-content:center;
-  gap:18px;
-  font-size:13px;
-  margin-bottom:25px;
-}
 
 .links{
   margin-top:10px;
@@ -105,9 +108,10 @@ footer{
 .trust-strip{
   display:flex;
   justify-content:center;
-  gap:25px;
-  font-size:14px;
-  margin-top:5px;
+  gap:30px;
+  font-size:16px;
+  font-weight:700;
+  margin-top:12px;
   margin-bottom:25px;
 }
 
