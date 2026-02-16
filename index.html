@@ -32,6 +32,23 @@
 <meta name="theme-color" content="#1da1f2">
 </head>
 
+  <style>
+  /* FIX darurat: biar icon verified gak ikut aturan img global */
+  img.verified{
+    width: 22px !important;
+    height: 22px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+  }
+
+  .title{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+</style>
+
 <script>
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./sw.js")
