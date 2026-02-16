@@ -115,3 +115,21 @@ footer{
   height: 20px;
 }
 
+/* FIX ICON tombol biar gak segede gaban */
+.btn img,
+.icon {
+  width: 20px !important;
+  height: 20px !important;
+  max-width: 20px !important;
+  max-height: 20px !important;
+  object-fit: contain !important;
+  display: inline-block !important;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
