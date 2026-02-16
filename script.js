@@ -24,16 +24,16 @@ document.getElementById("links").innerHTML = `
 
   <a class="btn" href="https://instagram.com/kemaluantidaklagiada" target="_blank">
   <img class="icon" src="https://cdn-icons-png.flaticon.com/512/733/733558.png">
-  INSTAGRAM RESMI
+  INSTAGRAM RESMI PUSAT REKBER
 </a>
 
   <a class="btn" href="https://facebook.com/https://www.facebook.com/bikram.bhandari.716195" target="_blank">
   <img class="icon" src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
-   FACEBOOK RESMI
+   FACEBOOK RESMI PUSAT REKBER
   </a>
 
   <a class="btn" href="https://www.instagram.com/stories/highlights/17967262886866202/" target="_blank">
-    ✅ TESTIMONI TRUSTED
+    ✅ TESTIMONI PUSAT REKBER
   </a>
 
   <a class="btn" href="https://www.instagram.com/stories/highlights/17924194713229942/" target="_blank">
