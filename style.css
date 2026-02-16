@@ -30,14 +30,13 @@ body{
   justify-content:center;
   align-items:center;
   gap:12px;
-  margin:10px 0 10px;
-  white-space:nowrap;   /* Biar gak turun baris */
+  margin:10px 0;
 }
 
 
 .verified{
-  width:32px;
-  height:32px;
+  width:36px;
+  height:36px;
 }
 
 
@@ -112,3 +111,16 @@ footer{
   margin-bottom:25px;
 }
 
+.profile{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.trust-strip{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  margin-top:10px;
+  font-size:14px;
+}
