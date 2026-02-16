@@ -133,3 +133,52 @@ footer{
   gap: 10px;
 }
 
+/* ===== HEADER FIX BIAR MIRIP KING.REKBER ===== */
+
+.title{
+  font-size: 42px;          /* kecilin dikit */
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 15px 0 5px;
+}
+
+.title span{
+  line-height: 1;
+}
+
+/* centang verified biar kecil & pas */
+.verified{
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: 4px;
+}
+
+/* tagline jadi rapih dibawah judul */
+.subtitle{
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 18px;
+}
+
+/* strip aman cepat terpercaya rapi */
+.trust-strip{
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 25px;
+}
+
+.trust-strip span{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
