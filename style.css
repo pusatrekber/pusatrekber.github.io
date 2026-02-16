@@ -45,6 +45,10 @@ body{
   margin-bottom:15px;
 }
 
+.subtitle{
+  display:none;
+}
+
 .trust-strip{
   display:flex;
   justify-content:center;
