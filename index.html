@@ -1,162 +1,91 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>PUSAT REKBER</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+  <!-- PRIMARY META -->
+<title>PUSAT.REKBER | Rekber Terpercaya</title>
+<meta name="description" content="PUSAT.REKBER adalah layanan rekber terpercaya di indonesia. Hubungi admin resmi melalui link resmi di halaman ini.">
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: linear-gradient(135deg, #000428, #001f4d, #003366);
-      background-size: 400% 400%;
-      animation: bgMove 10s infinite alternate;
-      color: white;
-    }
+<!-- OPEN GRAPH -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pusatrekber.github.io/">
+<meta property="og:title" content="PUSAT REKBER | Rekber Trusted Indonesia">
+<meta property="og:description" content="PUSAT REKBER layanan rekber terpercaya di indonesia.">
+<meta property="og:image" content="https://pusatrekber.github.io/PUSAT_REKBER_PK.png">
+<meta property="og:image:secure_url" content="https://pusatrekber.github.io/PUSAT_REKBER_PK.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="PUSAT REKBER">
 
-    @keyframes bgMove {
-      0% { background-position: left; }
-      100% { background-position: right; }
-    }
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PUSAT REKBER | Rekber Trusted Indonesia">
+<meta name="twitter:description" content="Rekber aman & terpercaya. Gunakan link resmi saja.">
+<meta name="twitter:image" content="https://pusatrekber.github.io/PUSAT_REKBER_PK.png">
 
-    .container {
-      padding: 40px 20px;
-    }
-
-.title {
-  font-family: 'Orbitron', sans-serif !important;
-  font-size: 46px !important;
-  font-weight: 900 !important;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
-  text-shadow: 0 0 10px #00f0ff,
-               0 0 20px #00f0ff,
-               0 0 40px #0088ff;
-  margin-bottom: 10px;
-}
-
-
-.verified {
-  color: #00aaff;
-  font-size: 28px;
-  margin-left: 10px;
-  text-shadow: 0 0 10px #00aaff,
-               0 0 20px #0088ff;
-}
-
-    .tagline {
-  margin-bottom: 35px;
-  color: rgba(255,255,255,0.75);
-  font-weight: 700;
-  font-size: 15px;
-}
-
-.container > p {
-  margin-bottom: 30px;
-  color: #bbb;
-
-.logo{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  padding: 6px;
-  border: 2px solid rgba(0,240,255,0.9);
-  box-shadow: 0 0 18px rgba(0,240,255,0.55);
-  margin: 0 auto 14px;
-  display:block;
-}
-
-
-    .btn {
-      display: block;
-      width: 280px;
-      margin: 15px auto;
-      padding: 15px;
-      border-radius: 15px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-      border: 2px solid #00f0ff;
-      background: rgba(0,0,0,0.6);
-      transition: 0.3s;
-      animation: glow 1.5s infinite alternate;
-    }
-
-    .btn:hover {
-      background: #00f0ff;
-      color: black;
-      transform: scale(1.05);
-    }
-
-    @keyframes glow {
-      0% {
-        box-shadow: 0 0 5px #00f0ff;
-      }
-      100% {
-        box-shadow: 0 0 20px #00f0ff;
-      }
-    }
-
-    .footer {
-      margin-top: 40px;
-      font-size: 12px;
-      color: #888;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1da1f2">
 </head>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js")
+    .then(() => console.log("Service Worker registered"))
+    .catch(err => console.error("SW failed:", err));
+}
+</script>
+
 
 <body>
 
-<div class="container">
-<img src="PUSAT_REKBER_PK.png" class="logo" alt="Logo Pusat Rekber">
+<div class="overlay"></div>
 
+<main class="container">
 
-  <h1 class="title">
-  PUSAT REKBER <span class="verified">✔</span>
-</h1>
-  <p class="tagline">
-  🔒 Aman &nbsp; ⚡ Cepat &nbsp; ✅ Terpercaya
-</p>
+  <!-- PROFILE -->
+  <section class="profile">
+    <div class="avatar-wrap">
+      <img id="avatar" class="avatar" src="">
+      <span class="avatar-glow"></span>
+    </div>
 
-  <a class="btn" href="https://wa.me/6282364681126" target="_blank">
-  WHATSAPP ADMIN
-</a>
+    <h1 class="title">
+      <span id="title">PUSAT REKBER</span>
+      <img class="verified"
+        src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Twitter_Verified_Badge.svg"
+        alt="verified">
+    </h1>
 
-<a class="btn" href="https://wa.me/6282364681126" target="_blank">
-  WHATSAPP ADMIN MALAY
-</a>
+    <p id="subtitle" class="subtitle">Rekber Aman • Cepat • Terpercaya</p>
 
-<a class="btn" href="https://instagram.com/kemaluantidaklagiada" target="_blank">
-  INSTAGRAM RESMI
-</a>
+    <div class="trust-strip">
+      <span>🔒 Aman</span>
+      <span>✅ Terpercaya</span>
+    </div>
+  </section>
 
-<a class="btn" href="https://www.facebook.com/bikram.bhandari.716195" target="_blank">
-  FACEBOOK ADMIN
-</a>
+  <!-- LINKS -->
+  <section id="links" class="links"></section>
 
-<a class="btn" href="https://www.instagram.com/stories/highlights/17967262886866202/" target="_blank">
-  TESTIMONI TRUSTED
-</a>
+  <!-- SAFETY -->
+  <p class="notice">
+    <br>
+    Admin resmi hanya melalui link di atas
+  </p>
 
-<a class="btn" href="https://www.instagram.com/stories/highlights/17924194713229942/" target="_blank">
-  BIAYA REKBER
-</a>
+  <!-- FOOTER -->
+  <footer>
+    © 2026 PUSAT.REKBER<br>
+      Rekber Terpercaya Indonesia
+  </footer>
 
+</main>
 
- <div class="footer">
-  <p>Admin resmi hanya melalui link di atas</p>
-  <p>© 2026 PUSAT REKBER</p>
-  <p>Rekber Terpercaya Indonesia</p>
-</div>
-
-</div>
-
+<script src="script.js"></script>
 </body>
 </html>
