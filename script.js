@@ -4,8 +4,7 @@
 document.getElementById("avatar").src = "PUSAT_REKBER_PK.png";
 
 document.getElementById("title").textContent = "PUSAT REKBER";
-document.getElementById("subtitle").textContent =
-  "Rekber Aman • Cepat • Terpercaya";
+
 
 
 // ============================
