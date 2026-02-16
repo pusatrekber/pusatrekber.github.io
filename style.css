@@ -109,15 +109,6 @@ footer{
   color:#888;
 }
 
-.trust-strip{
-  display:flex;
-  justify-content:center;
-  gap:30px;
-  font-size:16px;
-  font-weight:700;
-  margin-top:12px;
-  margin-bottom:25px;
-}
 
 .profile{
   display:flex;
@@ -126,9 +117,23 @@ footer{
 }
 
 .trust-strip{
-  display:flex;
-  justify-content:center;
-  gap:25px;
-  margin-top:10px;
-  font-size:14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  margin-top: 12px;
+  margin-bottom: 28px;
 }
+
+.trust-strip span{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1;
+}
+
+
