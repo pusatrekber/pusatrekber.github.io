@@ -17,27 +17,27 @@ document.getElementById("links").innerHTML = `
   WHATSAPP ADMIN
 </a>
 
-  <a class="btn" href="https://wa.me/60XXXXXXXXX" target="_blank">
+  <a class="btn" href="https://wa.me/6282364681126" target="_blank">
   <img class="icon" src="https://cdn-icons-png.flaticon.com/512/197/197581.png">
-    🇲🇾 WHATSAPP ADMIN MALAY
+   WHATSAPP ADMIN MALAYSIA
   </a>
 
-  <a class="btn" href="https://instagram.com/USERNAME_LO" target="_blank">
+  <a class="btn" href="https://instagram.com/kemaluantidaklagiada" target="_blank">
   <img class="icon" src="https://cdn-icons-png.flaticon.com/512/733/733558.png">
   INSTAGRAM RESMI
 </a>
 
-  <a class="btn" href="https://facebook.com/" target="_blank">
-    📘 FACEBOOK ADMIN
+  <a class="btn" href="https://facebook.com/https://www.facebook.com/bikram.bhandari.716195" target="_blank">
+  <img class="icon" src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+   FACEBOOK RESMI
   </a>
 
-  <a class="btn" href="#" target="_blank">
+  <a class="btn" href="https://www.instagram.com/stories/highlights/17967262886866202/" target="_blank">
     ✅ TESTIMONI TRUSTED
   </a>
 
-  <a class="btn" href="#" target="_blank">
-  <img class="icon" src="https://cdn-icons-png.flaticon.com/512/263/263142.png">
-    🛒 BIAYA REKBER
+  <a class="btn" href="https://www.instagram.com/stories/highlights/17924194713229942/" target="_blank">
+   💰 BIAYA REKBER
   </a>
 
 `;
