@@ -46,11 +46,13 @@ body{
 }
 
 .verified{
-  width:30px;
-  height:30px;
-  margin-top:4px;
+  width:40px;
+  height:40px;
+  margin-top:6px;   /* biar turun dikit sejajar */
   flex-shrink:0;
+  filter: drop-shadow(0 0 6px #00f0ff);
 }
+
 
 
 .subtitle{
