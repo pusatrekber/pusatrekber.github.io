@@ -31,22 +31,25 @@ body{
 .title{
   font-size:42px;
   font-weight:900;
+
   display:flex;
   justify-content:center;
   align-items:center;
-  gap:12px;
+
+  gap:10px;
   margin:10px 0;
 
-  font-family: "Nortune", sans-serif;
-  letter-spacing: 2px;
+  font-family:"Nortune", sans-serif;
+  letter-spacing:2px;
+
+  white-space:nowrap;
 }
 
-
-
-
 .verified{
-  width:36px;
-  height:36px;
+  width:30px;
+  height:30px;
+  margin-top:4px;
+  flex-shrink:0;
 }
 
 
