@@ -47,7 +47,7 @@ body {
 }
 
 .title{
-  font-size:32px;
+  font-size:42px;
   font-weight:900;
 
   display:flex;
@@ -57,7 +57,7 @@ body {
   gap:10px;
   margin:10px 0;
 
-  font-family:"Gardion", sans-serif;
+  font-family:"Nortune", sans-serif;
   letter-spacing:2px;
 
   white-space:nowrap;
