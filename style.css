@@ -13,19 +13,21 @@ html, body{
 }
 
 body{
-  margin:0;
+  margin: 0;
   font-family: Arial, sans-serif;
-  text-align:center;
-  background: linear-gradient(135deg, #000428, #001f4d, #003366);
-  color:#fff;
+  text-align: center;
+  /* Ganti background jadi biru ke hitam gradien */
+  background: linear-gradient(to bottom, #0000ff, #000000); /* Gradien biru ke hitam */
+  color: #fff;
 }
 
 .container{
-  max-width:420px;
-  width:100%;
-  margin:0 auto;
-  padding:40px 16px;
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 16px;
 }
+
 
 
 .avatar{
