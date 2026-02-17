@@ -21,7 +21,7 @@ body {
   background: url('https://github.com/pusatrekber/pusatrekber.github.io/raw/main/background-git.png') no-repeat center center fixed;
   background-size: cover; /* Biar logo full cover */
   color: #fff;
-  backdrop-filter: blur(5px); /* Efek blur pada background */
+  backdrop-filter: blur(10px); /* Efek blur pada background */
 }
 
 .container {
