@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Gardion";  /* Ganti nama font menjadi Gardion */
-  src: url("Gardion-font.otf") format("opentype");  /* Path ke font Gardion */
+  font-family: "Nortune";
+  src: url("NortuneExtrablack-L3zO4.ttf") format("truetype");
 }
 
 * {
@@ -14,17 +14,8 @@ html, body {
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;  /* Font default untuk body, bisa tetap Arial */
+  font-family: Arial, sans-serif;
   text-align: center;
-}
-
-/* Ganti font di header atau judul "Pusat Rekber" */
-header {
-  font-family: "Gardion", sans-serif;  /* Menggunakan font Gardion */
-  font-size: 4em;  /* Ukuran font judul */
-  text-align: center;
-  color: #fff;  /* Warna putih untuk teks */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Efek shadow halus */
 }
 
   
